@@ -1,0 +1,22 @@
+{
+  "name": "pern-todo",
+  "version": "1.0.0",
+  "description": "Learn postgresql using node js, express and react",
+  "main": "index.js",
+  "engines": {
+    "node": "15.0.0",
+    "npm": "7.24.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "author": "\"Ayomide\"",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.1",
+    "pg": "^8.7.1"
+  }
+}
